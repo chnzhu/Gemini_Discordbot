@@ -21,9 +21,9 @@ load_dotenv()
 GOOGLE_AI_KEY = os.getenv("GOOGLE_AI_KEY")
 DISCORD_BOT_TOKEN = os.getenv("DISCORD_BOT_TOKEN")
 MAX_HISTORY = int(os.getenv("MAX_HISTORY"))
-MAX_OUTPUT_TOKENS = int(os.getnenv("MAX_OUTPUT_TOKENS"))
+MAX_OUTPUT_TOKENS = int(os.getenv("MAX_OUTPUT_TOKENS"))
 
-MODEL_NAME = os.getnenv("MODEL_NAME")
+MODEL_NAME = os.getenv("MODEL_NAME")
 # Default Summary Prompt if you just shove a URL in
 SUMMERIZE_PROMPT = "Give me 5 bullets about"
 
